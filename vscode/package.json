@@ -1,0 +1,21 @@
+{
+    "name": "dark-eguana",
+    "displayName": "dark-eguana",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "dark-eguana",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-eguana-color-theme.json"
+            }
+        ]
+    }
+}
