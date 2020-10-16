@@ -15,3 +15,5 @@ hex: #5f87af term: 67 /// BASE CYAN 'function let const'
 #5fffaf term 85
 
 #9e9e9e term 247 comment
+#767676 term 243 
+#eeeeee term 255
