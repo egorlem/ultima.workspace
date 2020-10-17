@@ -48,7 +48,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#5f87af" // "#87afaf" // "#87d7af" // "#87d7d7" // done
+				"foreground": "#5f87af" //"#5f87d7" // "#5f87af" // done
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 				"keyword",
 			],
 			"settings": {
-				"foreground": "#808080" /// DONE = 
+				"foreground": "#808080", /// DONE = 
 			}
 		},
 		{
@@ -69,23 +69,74 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#5f5f87" // "#d7d7af" // "#d9aed4" // "#ffd7ff" DONE
+				"foreground": "#8787af" // "#d9aed4" // "#ffd7ff" DONE
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
 				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
+				// "meta.tag",
+				// "punctuation.definition.tag",
+				// "punctuation.separator.inheritance.php",
+				// "punctuation.definition.tag.html",
+				// "punctuation.definition.tag.begin.html",
+				// "punctuation.definition.tag.end.html",
+				// "punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#00ff00" // "#808080" // "#89DDFF"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				//	"punctuation",
+				// "meta.tag",
+				// "punctuation.definition.tag",
+				// "punctuation.separator.inheritance.php",
+				// "punctuation.definition.tag.html",
+				// "punctuation.definition.tag.begin.html",
+				// "punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#0228ff" // "#808080" // "#89DDFF"  
+				//// Скобки после атрибука data = {} 
+				//// должен быть в одной группе с литералами 
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				//	"punctuation",
+				"meta.tag", /// ТЕКСТ ВНУТРИ ТЕГА 
+				//	"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"punctuation.section.embedded",
+				// "punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#808080" // "#89DDFF"
+				"foreground": "#ddff80" // "#808080" // "#89DDFF"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				//	"punctuation",
+				//"meta.tag",
+				"punctuation.definition.tag",
+				//"punctuation.separator.inheritance.php",
+				//"punctuation.definition.tag.html",
+				//"punctuation.definition.tag.begin.html",
+				//"punctuation.definition.tag.end.html",
+				// "punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#ff00b3" // "#808080" // "#89DDFF" 
+				/// пунктуация HTML тега < > 
 			}
 		},
 		{
@@ -184,6 +235,15 @@
 			}
 		},
 		{
+			"name": "Entity Types",
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#ff00d4"
+			}
+		},
+		{
 			"name": "Symbols, Inherited Class, Markup Heading",
 			"scope": [
 				"entity.other.inherited-class",
@@ -194,11 +254,12 @@
 				"constant.other.key",
 			],
 			"settings": {
-				"foreground": "#C3E88D" // DONE
+				"foreground": "#afd7af" // "#C3E88D" // DONE ??? 
+				//// НУЖНО ВЫБРАТЬ ЦВЕТ ДЛЯ КЛАССА
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class, Support", // JS CLASS 
 			"scope": [
 				"entity.name",
 				"support.class",
@@ -209,20 +270,11 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#afafff" // "#FFCB6B" //// DONE
+				"foreground": "#afd7af" // "#afafff" // "#FFCB6B" //// DONE
 			}
 		},
-		// {
-		// 	"name": "Entity Types",
-		// 	"scope": [
-		// 		"support.type"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#ff00d4"
-		// 	}
-		// },
 		{
-			"name": "CSS Class and Support",
+			"name": "CSS Class and Support", // CSS CLASS 
 			"scope": [
 				"source.css support.type.property-name",
 				"source.sass support.type.property-name",
