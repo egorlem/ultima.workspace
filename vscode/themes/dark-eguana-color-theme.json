@@ -172,6 +172,13 @@
 				"foreground": "#5fd7d7" /// DONE??
 			}
 		},
+		// {
+		//     "name": "Operators",
+		//     "scope": "keyword.operator",
+		//     "settings": {
+		//         "foreground": "#1100ff"  ///  РАВНО ; 
+		//     }
+		// },
 		{
 			"name": "Other Variable, String Link",
 			"scope": [
@@ -231,18 +238,18 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#e4e4e4", //"#C3E88D" // DONE
+				"foreground": "#d3d3d3", //"#C3E88D" // DONE ???? 
 			}
 		},
-		{
-			"name": "Entity Types",
-			"scope": [
-				"support.type"
-			],
-			"settings": {
-				"foreground": "#ff00d4"
-			}
-		},
+		// {
+		// 	"name": "Entity Types",
+		// 	"scope": [
+		// 		"support.type"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#ff00d4"
+		// 	}
+		// },
 		{
 			"name": "Symbols, Inherited Class, Markup Heading",
 			"scope": [
@@ -543,7 +550,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#406bc9"
 			}
 		},
 		{
@@ -579,7 +586,7 @@
 				"markup.raw.block.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#00000050"
+				"foreground": "#ff5f5f"
 			}
 		},
 		{
@@ -588,20 +595,20 @@
 				"punctuation.definition.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#00000050"
+				"foreground": "#f746bc"
 			}
 		},
-		// {
-		// 	"name": "Markdown - Fenced Bode Block Variable",
-		// 	"scope": [
-		// 		"markup.raw.block.fenced.markdown",
-		// 		"variable.language.fenced.markdown",
-		// 		"punctuation.section.class.end"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#EEFFFF"
-		// 	}
-		// },
+		{
+			"name": "Markdown - Fenced Bode Block Variable",
+			"scope": [
+				"markup.raw.block.fenced.markdown",
+				"variable.language.fenced.markdown",
+				"punctuation.section.class.end"
+			],
+			"settings": {
+				"foreground": "#120075" //// ???? 
+			}
+		},
 		{
 			"name": "Markdown - Fenced Language",
 			"scope": [
@@ -621,26 +628,26 @@
 				"foreground": "#65737E"
 			}
 		},
-		// {
-		// 	"name": "Markup - Table",
-		// 	"scope": [
-		// 		"markup.table"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#EEFFFF"
-		// 	}
-		// }
+		{
+			"name": "Markup - Table",
+			"scope": [
+				"markup.table"
+			],
+			"settings": {
+				"foreground": "#ff0080"
+			}
+		}
 	],
 	"colors": {
+		"editor.foreground": "#f1f1f1",
 		"editor.background": "#1b1b1b",
 		"editorRuler.foreground": "#333333",
 		"panel.background": "#1a1a1a",
 		"statusBar.background": "#005f87",
-		"statusBar.foreground": "#CFFFFF",
+		"statusBar.foreground": "#ffffff",
 		"statusBar.noFolderBackground": "#005f87",
 		"statusBar.noFolderForeground": "#ffffff",
 		"statusBar.noFolderBorder": "#0a4468",
-		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb",
 		/// TERM
