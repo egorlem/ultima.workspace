@@ -3,3 +3,6 @@ function test() {
 }
 
 test();
+
+let a = "test";
+console.log(a.length);
