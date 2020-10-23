@@ -8,8 +8,8 @@
 				"comment",
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#00aeff"
+				//	"fontStyle": "italic",
+				"foreground": "#8a8a8a" // DONE
 			}
 		},
 		{
@@ -19,7 +19,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#5fffaf"
+				"foreground": "#5fffaf" // DONE
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 				"keyword",
 			],
 			"settings": {
-				"foreground": "#808080", /// DONE = 
+				"foreground": "#8787af", /// DONE = 
 			}
 		},
 		{
@@ -76,32 +76,19 @@
 			"name": "Operator, Misc",
 			"scope": [
 				"punctuation",
-				// "meta.tag",
-				// "punctuation.definition.tag",
-				// "punctuation.separator.inheritance.php",
-				// "punctuation.definition.tag.html",
-				// "punctuation.definition.tag.begin.html",
-				// "punctuation.definition.tag.end.html",
-				// "punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#00ff00" // "#808080" // "#89DDFF"
+				"foreground": "#9e9e9e" // "#808080" // "#89DDFF" DONE COR
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
-				//	"punctuation",
-				// "meta.tag",
-				// "punctuation.definition.tag",
-				// "punctuation.separator.inheritance.php",
-				// "punctuation.definition.tag.html",
-				// "punctuation.definition.tag.begin.html",
-				// "punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
+				"punctuation.definition.template-expression", //СКОБКА ВНУТРИ СТРОКИ ${}
 			],
 			"settings": {
-				"foreground": "#0228ff" // "#808080" // "#89DDFF"  
+				"foreground": "#5f87ac" // "#808080" // "#89DDFF"  DONE COR
 				//// Скобки после атрибука data = {} 
 				//// должен быть в одной группе с литералами 
 			}
@@ -110,32 +97,26 @@
 			"name": "Operator, Misc",
 			"scope": [
 				//	"punctuation",
-				"meta.tag", /// ТЕКСТ ВНУТРИ ТЕГА 
-				//	"punctuation.definition.tag",
-				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag",
+				//	"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				// "punctuation.section.embedded",
+				//	"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#ddff80" // "#808080" // "#89DDFF"
+				"foreground": "#8a8a8a" // DON COR
 			}
 		},
 		{
 			"name": "Operator, Misc",
 			"scope": [
+				"meta.tag", /// ТЕКСТ ВНУТРИ ТЕГА 
 				//	"punctuation",
-				//"meta.tag",
-				"punctuation.definition.tag",
-				//"punctuation.separator.inheritance.php",
-				//"punctuation.definition.tag.html",
-				//"punctuation.definition.tag.begin.html",
-				//"punctuation.definition.tag.end.html",
-				// "punctuation.section.embedded",
+				//	"punctuation.section.embedded",
 			],
 			"settings": {
-				"foreground": "#ff00b3" // "#808080" // "#89DDFF" 
+				"foreground": "#dadada" // "#808080" // "#89DDFF"  DONE COR
 				/// пунктуация HTML тега < > 
 			}
 		},
@@ -160,16 +141,29 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#afafd7" /// "#af87af" /// DONE
+				"foreground": "#5fd7af" //"#d7d7af" /// "#af87af" /// DONE
 			}
 		},
 		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
+			"name": "JavaScript Variable",
+			"scope": "variable.language.js",
 			"settings": {
-				"foreground": "#5fd7d7" /// DONE??
+				"foreground": "#CC555A"
+			}
+		},
+		// {
+		// 	"name": "this.self",
+		// 	"scope": "variable.language",
+		// 	"settings": {
+		// 		"foreground": "#c7444a"
+		// 	}
+		// },
+		{
+			"name": "Support",
+			"scope": "support",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#d7d7af" // length etc DONE COR !!! 
 			}
 		},
 		// {
@@ -189,47 +183,82 @@
 				"foreground": "#5fffaf" //"#f07178"
 			}
 		},
-		// {
-		// 	"name": "Constant, Function Argument, Tag Attribute, Embedded",
-		// 	"scope": [
-		// 		"constant.language",
-		// 		"support.constant",
-		// 		"constant.character",
-		// 		"constant.escape",
-		// 		"variable.parameter",
-		// 		"keyword.other.unit",
-		// 		"keyword.other",
-		// 		"variable",
-		// 		"meta.definition.variable.name",
-		// 		"support.variable",
-		// 		"entity.name.variable"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#5fd7d7" /// DONE
-		// 	}
-		// },
+		/// VAR CONS AND KEY START
+		{
+			"name": "Constant, Function Argument, Tag Attribute, Embedded",
+			"scope": [
+				//	"constant.language",
+				"support.constant",
+				//	"constant.character",
+				//	"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other",
+				//	"variable",
+				//	"meta.definition.variable.name",
+				//	"support.variable",
+				//	"entity.name.variable"
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#54d8d6" /// DONE COR ???
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language", /// bulian
+			"settings": {
+				"foreground": "#005f87" // DONT DONE 
+			}
+		},
+		{
+			"scope": "constant.character",
+			"settings": {
+				"foreground": "#5f87af"
+			}
+		},
+		{
+			"name": "Constants and enums",
+			"scope": [
+				"variable.other.constant",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#87d6d6",
+			}
+		},
 		{
 			"name": "Variable and parameter name",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder",
-				"meta.definition.variable.name",
-				"support.variable",
-				"entity.name.variable",
-				"support.type",
-				"meta.object-literal.key"
+				//	"string constant.other.placeholder",
+				//	"meta.definition.variable.name",
+				//	"support.variable",
+				//	"entity.name.variable",
+				//	"support.type",
+				"meta.object-literal.key" //// КЛЮЧИ ОБЬЕКТА JS
 			],
 			"settings": {
 				"foreground": "#5fd7d7"
 			}
 		},
+		// {
+		// 	"name": "Block Level Variables",
+		// 	"scope": [
+		// 		"meta.block variable.other"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#5fd7d7" /// DONE??
+		// 	}
+		// },
+		// VAR END
 		{
 			"name": "Number",
 			"scope": [
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#d7af5f" /// DONE  NUMBER ??
+				"foreground": "#d7d7af" /// "#d7d787"  /// DONE  NUMBER ?? 
 			}
 		},
 		{
@@ -238,7 +267,7 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#d3d3d3", //"#C3E88D" // DONE ???? 
+				"foreground": "#dadada", //"#C3E88D" // DONE  COR
 			}
 		},
 		// {
@@ -341,20 +370,21 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#5fd7d7"
+				"foreground": "#5fd7d7",
+				"fontStyle": "underline", ///// HTML и React атрибуты
 			}
 		},
-		// {
-		// 	"name": "HTML Attributes",
-		// 	"scope": [
-		// 		"text.html.basic entity.other.attribute-name.html",
-		// 		"text.html.basic entity.other.attribute-name"
-		// 	],
-		// 	"settings": {
-		// 		"fontStyle": "italic",
-		// 		"foreground": "#ff0000"
-		// 	}
-		// },
+		{
+			"name": "HTML Attributes",
+			"scope": [
+				"text.html.basic entity.other.attribute-name.html",
+				"text.html.basic entity.other.attribute-name"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#ff0000"
+			}
+		},
 		{
 			"name": "CSS Classes",
 			"scope": [
@@ -639,17 +669,24 @@
 		}
 	],
 	"colors": {
-		"editor.foreground": "#f1f1f1",
-		"editor.background": "#1b1b1b",
-		"editorRuler.foreground": "#333333",
-		"panel.background": "#1a1a1a",
+		"editor.foreground": "#f1f1f1", // DONE
+		"editor.background": "#1c1c1c", // editor DONE
+		"panel.background": "#1c1c1c", // term DONE
+		"editorRuler.foreground": "#333333", /// ?????
 		"statusBar.background": "#005f87",
-		"statusBar.foreground": "#ffffff",
+		"statusBar.foreground": "#eeeeee",
 		"statusBar.noFolderBackground": "#005f87",
-		"statusBar.noFolderForeground": "#ffffff",
-		"statusBar.noFolderBorder": "#0a4468",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb",
+		"statusBar.border": "#005f87",
+		"statusBar.noFolderForeground": "#eeeeee",
+		"statusBar.noFolderBorder": "#005f87",
+		"statusBar.debuggingBackground": "#8787af",
+		"statusBar.debuggingBorder": "#8787af",
+		"activityBarBadge.background": "#005f87", /// ?????
+		"sideBarTitle.foreground": "#eeeeee",
+		"editorLineNumber.foreground": "#8a8a8a", /// DONE
+		"editorBracketMatch.background": "#303030",
+		"editorBracketMatch.border": "#5f87af",
+		"editor.wordHighlightBackground": "#303030",
 		/// TERM
 		"terminal.ansiBlack": "#073642",
 		"terminal.ansiRed": "#dc322f",

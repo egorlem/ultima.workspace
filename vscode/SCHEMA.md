@@ -10,18 +10,24 @@ NOW #5f87af 67 OR #005f87 24 НОВЫЙ ЦВЕТ
 
 return #8787af
 
-#8787af term 103 //// OK OK OK !!!!
-#5fd7d7 retm 80
-#5f87af term 67 // STORAGE // function, let, const, etc
-#afafd7 term 146 // f NAME
-#afd7af term 151
-#d7af5f rerm 179
+---
 
-#5fffaf term 85
+#dadada term 253 /// STR COR
 
-#9e9e9e term 247 comment
-#767676 term 243
-#eeeeee term 255
+#8787af term 103 COR #8786ab //// OK OK OK !!!! фиолетовый
+#5fd7d7 retm 80 COR #54d8d6 /// ALL VARIABLE #5fafaf 73 dark ??? каен
+#5f87af term 67 COR #5f87ac // STORAGE // function, let, const, etc синий
+#afd7af term 151 COR #acd8b3 зеленый
+#d7d7af term 187 COR #d6d7b3 NUMBER желтый
+
+специальные цвета
+COR #5fffaf term 85 COR #005f87 term 24
+COR #8a8a8a term 245 "comment" and "html tag"
+COR #9e9e9e term 247 "пунктуация"
+
+---
+
+#afafd7 term 146 // f NAME НЕТ
 
 git
 
@@ -32,3 +38,9 @@ blink
 reverse
 italic
 strike
+
+== Environment colors
+#1c1c1c main background term 234
+#eeeeee main foreground term 255
+== Environment colors (Special)
+#303030 term 236 "brackets match"
