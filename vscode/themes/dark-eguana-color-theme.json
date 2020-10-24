@@ -3,23 +3,22 @@
 	"type": "dark",
 	"tokenColors": [
 		{
-			"name": "Comment",
+			"name": "Comment", // сам коментарий
 			"scope": [
 				"comment",
 			],
 			"settings": {
-				//	"fontStyle": "italic",
 				"foreground": "#8a8a8a" // DONE
 			}
 		},
 		{
-			"name": "Comment",
+			"name": "Comment", /// хвост коментария 
 			"scope": [
 				"punctuation.definition.comment",
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#5fffaf" // DONE
+				"foreground": "#5fffaf" // DONE CORE 
 			}
 		},
 		{
@@ -48,20 +47,20 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#5f87af" //"#5f87d7" // "#5f87af" // done
+				"foreground": "#5f87ac" // DONE CORE 
 			}
 		},
 		{
-			"name": "Keyword", /// function let const etc
+			"name": "Keyword", ///  операторы ! ? : || etc 
 			"scope": [
 				"keyword",
 			],
 			"settings": {
-				"foreground": "#8787af", /// DONE = 
+				"foreground": "#8786ab", /// DONE CORE 
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Operator, Misc", /// надо проверить
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
@@ -69,7 +68,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#8787af" // "#d9aed4" // "#ffd7ff" DONE
+				"foreground": "#8786ab" // DONE CORE
 			}
 		},
 		{
@@ -88,7 +87,7 @@
 				"punctuation.definition.template-expression", //СКОБКА ВНУТРИ СТРОКИ ${}
 			],
 			"settings": {
-				"foreground": "#5f87ac" // "#808080" // "#89DDFF"  DONE COR
+				"foreground": "#5f87ac" // DONE COR
 				//// Скобки после атрибука data = {} 
 				//// должен быть в одной группе с литералами 
 			}
@@ -141,7 +140,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#5fd7af" //"#d7d7af" /// "#af87af" /// DONE
+				"foreground": "#ffff00" /// "#af87af" /// DONE
 			}
 		},
 		{
@@ -163,7 +162,7 @@
 			"scope": "support",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#d7d7af" // length etc DONE COR !!! 
+				"foreground": "#2bff00" //"#d7d7af" // length etc DONE COR !!! 
 			}
 		},
 		// {
@@ -201,7 +200,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#54d8d6" /// DONE COR ???
+				"foreground": "#87d7d7" /// DONE COR ???
 			}
 		},
 		{
@@ -224,7 +223,7 @@
 				"variable.other.enummember"
 			],
 			"settings": {
-				"foreground": "#87d6d6",
+				"foreground": "#87d7d7",
 			}
 		},
 		{
@@ -239,7 +238,7 @@
 				"meta.object-literal.key" //// КЛЮЧИ ОБЬЕКТА JS
 			],
 			"settings": {
-				"foreground": "#5fd7d7"
+				"foreground": "#87d7d7"
 			}
 		},
 		// {
@@ -258,7 +257,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#d7d7af" /// "#d7d787"  /// DONE  NUMBER ?? 
+				"foreground": "#ff8cf0" // "#d7d7af" /// "#d7d787"  /// DONE  NUMBER ?? 
 			}
 		},
 		{
@@ -290,7 +289,7 @@
 				"constant.other.key",
 			],
 			"settings": {
-				"foreground": "#afd7af" // "#C3E88D" // DONE ??? 
+				"foreground": "#ffffff" // "#C3E88D" // DONE ??? 
 				//// НУЖНО ВЫБРАТЬ ЦВЕТ ДЛЯ КЛАССА
 			}
 		},
@@ -306,7 +305,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#afd7af" // "#afafff" // "#FFCB6B" //// DONE
+				"foreground": // "#afd7af" // "#afafff" // "#FFCB6B" //// DONE
 			}
 		},
 		{
@@ -320,7 +319,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#afd7af" // done
+				"foreground": "#87d787" // done
 			}
 		},
 		{
@@ -361,7 +360,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#5faf87" // "#82AAFF"
+				"foreground": "#ffffff" // "#82AAFF"
 			}
 		},
 		{
