@@ -18,7 +18,7 @@ return #8787af
 #8787af term 103 COR #8786ab //// OK OK OK !!!! фиолетовый
 #5fd7d7 retm 80 COR #54d8d6 /// ALL НОВЫЙ! 116 новый #87d7d7
 #5f87af term 67 COR #5f87ac // STORAGE // function, let, const, etc синий
-#afd7af term 151 COR #acd8b3 зеленый
+#afd7af term 151 COR #acd8b3 НОВЫЙ #87d787 114 новый зеленый
 #d7d7af term 187 COR #d6d7b3 NUMBER желтый #afd7d7 МОЖЕТ этот 152
 
 специальные цвета

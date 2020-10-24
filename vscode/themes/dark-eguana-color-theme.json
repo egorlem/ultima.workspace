@@ -140,7 +140,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#d7d7af" /// "#af87af" /// DONE
+				"foreground": "#ffff00" /// "#af87af" /// DONE
 			}
 		},
 		{
@@ -200,7 +200,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#afd7d7" /// DONE COR ???
+				"foreground": "#87d7d7" /// DONE COR ???
 			}
 		},
 		{
@@ -289,7 +289,7 @@
 				"constant.other.key",
 			],
 			"settings": {
-				"foreground": "#afd7af" // "#C3E88D" // DONE ??? 
+				"foreground": "#ffffff" // "#C3E88D" // DONE ??? 
 				//// НУЖНО ВЫБРАТЬ ЦВЕТ ДЛЯ КЛАССА
 			}
 		},
@@ -305,7 +305,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#afd787" // "#afd7af" // "#afafff" // "#FFCB6B" //// DONE
+				"foreground": // "#afd7af" // "#afafff" // "#FFCB6B" //// DONE
 			}
 		},
 		{
@@ -319,7 +319,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#afd7af" // done
+				"foreground": "#87d787" // done
 			}
 		},
 		{
@@ -360,7 +360,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#5faf87" // "#82AAFF"
+				"foreground": "#ffffff" // "#82AAFF"
 			}
 		},
 		{
