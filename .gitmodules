@@ -1,3 +1,6 @@
 [submodule "guezwhoz-vscode-theme"]
 	path = guezwhoz-vscode-theme
 	url = https://github.com/guesswhozzz/guezwhoz-vscode-theme
+[submodule "guezwhoz-zshell"]
+	path = guezwhoz-zshell
+	url = https://github.com/guesswhozzz/guezwhoz-zshell.git
