@@ -1,0 +1,102 @@
+set background=dark
+highlight clear
+if exists("syntax_on")
+	syntax reset
+endif
+let g:colors_name = "democolor"
+:hi ColorColumn guibg=#333333 ctermbg=237
+:hi LineNr guibg=#858585 ctermfg=245
+
+
+highlight NonText ctermfg=24
+highlight vimLet ctermfg=167
+highlight vimString guifg=#005faf
+
+syntax keyword FooTest FooTest
+highlight FooTest ctermbg=Green ctermfg=White cterm=bold,underline
+
+
+:hi JavaScriptStatement guifg=#f2b9db ctermfg=182
+:hi link javaScriptRepeat JavaScriptStatement
+:hi link javaScriptConditional JavaScriptStatement
+:hi link javaScriptLabel JavaScriptStatement
+:hi link javaScriptBranch JavaScriptStatement
+:hi link javaScriptOperator JavaScriptStatement
+:hi link javaScriptException JavaScriptStatement
+
+
+:hi JavaScriptVariables guifg=#83aed9 ctermfg=110
+:hi link javaScriptIdentifier JavaScriptVariables
+:hi link javaScriptReserved JavaScriptVariables
+:hi link javaScriptFunction JavaScriptVariables
+
+:hi javaScriptNullish guifg=#cadbed ctermfg=152
+:hi link javaScriptNull javaScriptNullish
+
+:hi javaScriptBraces guifg=#909090 ctermfg=246
+
+:hi javaScriptStringD guifg=#2dafaa ctermfg=37
+
+:hi javaScriptLineComment guifg=#909090 ctermfg=246
+
+hi link Function JavaScriptStatement
+
+
+highlight StatuslineColor ctermfg=255 ctermbg=24 guibg=#004f87
+
+"GLOBAL
+hi String guifg=#eeeeee ctermfg=255
+hi Number guifg=#d7d7af ctermfg=187
+hi Special guifg=#5fffaf ctermfg=85
+hi Noise guifg=#767676 ctermfg=243 
+hi Comment guifg=#9e9e9e ctermfg=247
+hi Include guifg=#8787af ctermfg=103
+hi Todo guifg=#9e9e9e ctermfg=247
+hi Function guifg=#afafd7 ctermfg=146
+hi StorageClass guifg=#5f87af ctermfg=67 
+hi Statement guifg=#5f5f87 ctermfg=103
+"JAVASCRIPT
+hi jsObject guifg=#5fd7d7 ctermfg=80
+hi link jsObjectKey jsObject
+hi link jsObjectValue jsObject
+hi link jsVariableDef jsObject
+hi link jsModuleKeyword jsObject
+hi link jsParen jsObject
+hi link jsObjectValue jsObject
+hi link jsObjectProp jsObject
+hi link jsFuncBlock jsObject
+hi link jsGlobalObjects jsObject
+hi link jsBracket jsObject
+hi link jsLength Number
+hi link jsRepeatBlock jsObject
+hi link jsParenRepeat jsObject
+"HTML
+hi htmlComment ctermfg=85
+hi link htmlCommentPart Comment
+hi htmlArg guifg=#5fd7d7 ctermfg=80
+"GIT 
+hi link gitcommitFirstLine String
+hi link gitcommitSummary gitcommitFirstLine
+hi link gitcommitSelected Comment
+hi gitcommitHeader guifg=#5fd7d7 ctermfg=80
+hi link gitcommitSelectedType gitcommitHeader
+hi gitcommitSelectedFile guifg=#afd7af ctermfg=151
+"MD
+hi markdownHeadingDelimiter guifg=#afd7af ctermfg=151
+hi markdownBold guifg=#afd7af ctermfg=151
+hi link markdownH1 markdownHeadingDelimiter
+hi link markdownH2 markdownHeadingDelimiter
+hi link markdownH3 markdownHeadingDelimiter
+hi link markdownH4 markdownHeadingDelimiter
+hi link markdownH5 markdownHeadingDelimiter
+hi link markdownH6 markdownHeadingDelimiter
+hi markdownLinkTextDelimiter guifg=#9e9e9e ctermfg=247
+hi markdownIdDelimiter guifg=#9e9e9e ctermfg=247
+hi markdownOrderedListMarker guifg=#9e9e9e ctermfg=247
+hi markdownListMarker guifg=#9e9e9e ctermfg=247
+hi markdownCodeDelimiter guifg=#9e9e9e ctermfg=247
+hi markdownLinkText guifg=#87d7d7 ctermfg=116
+hi markdownId guifg=#87afd7 ctermfg=110
+hi markdownUrl guifg=#87afd7 ctermfg=110
+
+

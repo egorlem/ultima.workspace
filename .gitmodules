@@ -4,3 +4,6 @@
 [submodule "guezwhoz-zshell"]
 	path = guezwhoz-zshell
 	url = https://github.com/guesswhozzz/guezwhoz-zshell.git
+[submodule "guezwhoz-vim-theme"]
+	path = guezwhoz-vim-theme
+	url = https://github.com/guesswhozzz/guezwhoz-vim-theme.git
