@@ -1,0 +1,96 @@
+{
+  "special": {
+    "seagreen": {
+      "term": "85",
+      "hex": "#5fffaf"
+    },
+    "beepblue": {
+      "term": "23",
+      "hex": "#005f5f"
+    },
+    "gray100": {
+      "term": "234",
+      "hex": "#1c1c1c"
+    },
+    "gray75": {
+      "term": "236",
+      "hex": "#303030"
+    },
+    "gray50": {
+      "term": "245",
+      "hex": "#8a8a8a"
+    },
+    "gray25": {
+      "term": "247",
+      "hex": "#9e9e9e"
+    }
+  },
+  "base": {
+    "black": {
+      "term": "232",
+      "hex": "#080808"
+    },
+    "red": {
+      "term": "160",
+      "hex": "#d70000"
+    },
+    "green": {
+      "term": "115",
+      "hex": "#87d7af"
+    },
+    "yellow": {
+      "term": "186",
+      "hex": "#d7d787"
+    },
+    "blue": {
+      "term": "74",
+      "hex": "#5fafd7"
+    },
+    "magenta": {
+      "term": "104",
+      "hex": "#8787d7 "
+    },
+    "cyan": {
+      "term": "80",
+      "hex": "#5fd7d7"
+    },
+    "white": {
+      "term": "253",
+      "hex": "#dadada"
+    }
+  },
+  "dim": {
+    "black": {
+      "term": "245",
+      "hex": "#8a8a8a"
+    },
+    "red": {
+      "term": "167",
+      "hex": "#d75f5f"
+    },
+    "green": {
+      "term": "151",
+      "hex": "#afd7af"
+    },
+    "yellow": {
+      "term": "187",
+      "hex": "#d7d7af"
+    },
+    "blue": {
+      "term": "110",
+      "hex": "#87afd7"
+    },
+    "magenta": {
+      "term": "146",
+      "hex": "#afafd7"
+    },
+    "cyan": {
+      "term": "116",
+      "hex": "#87d7d7"
+    },
+    "white": {
+      "term": "255",
+      "hex": "#eeeeee"
+    }
+  }
+}
