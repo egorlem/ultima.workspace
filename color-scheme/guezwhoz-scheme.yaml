@@ -17,7 +17,8 @@ special:
   gray25:
     term: "247"
     hex: "#9e9e9e"
-
+## #005f5f
+## #3a3a3a 237
 base: #Base color pallete
   black: #Grey3
     term: "232"
