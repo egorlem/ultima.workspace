@@ -7,3 +7,6 @@
 [submodule "guezwhoz-vim-theme"]
 	path = guezwhoz-vim-theme
 	url = https://github.com/guesswhozzz/guezwhoz-vim-theme.git
+[submodule "guezwhoz-iterm2-theme"]
+	path = guezwhoz-iterm2-theme
+	url = https://github.com/guesswhozzz/guezwhoz-iterm2-theme.git
