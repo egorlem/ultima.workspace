@@ -5,8 +5,8 @@
       "hex": "#5fffaf"
     },
     "deepblue": {
-      "term": "24",
-      "hex": "#005f87"
+      "term": "23",
+      "hex": "#005f5f"
     },
     "gray100": {
       "term": "234",
@@ -48,7 +48,7 @@
     },
     "magenta": {
       "term": "104",
-      "hex": "#8787d7 "
+      "hex": "#8a8acf"
     },
     "cyan": {
       "term": "80",
