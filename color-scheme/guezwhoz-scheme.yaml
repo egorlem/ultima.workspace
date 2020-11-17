@@ -38,8 +38,8 @@ base: #Base color pallete
     term: '74'
     hex: '#5fafd7'
   magenta:
-    term: '104'
-    hex: '#8a8acf'
+    term: '147'
+    hex: '#afafff'
   cyan:
     term: '80'
     hex: '#5fd7d7'
