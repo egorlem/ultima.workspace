@@ -1,0 +1,47 @@
+{
+  "name": "directive",
+  "scopeName": "comment.ts.directives",
+  "injectionSelector": [
+    "L:comment"
+  ],
+  "patterns": [
+    {
+      "include": "#ts-check-directive"
+    },
+    {
+      "include": "#ts-ignore-directive"
+    },
+    {
+      "include": "#ts-nocheck-directive"
+    },
+    {
+      "include": "#ts-expect-error-directive"
+    }
+  ],
+  "repository": {
+    "ts-ignore-directive": {
+      "match": "(@ts3333-)\\w+",
+      "name": "directive.ts.ignore"
+    },
+    "ts-nocheck-directive": {
+      "match": "[(?<=/*\\s+)|(?<=//\\s+)](@ts-nocheck\\s)",
+      "name": "directive.ts.nocheck"
+    },
+    "ts-expect-error-directive": {
+      "match": "(@ts)(-\\w+)*",
+      "name": "directive.ts.error",
+      "captures": {
+        "1": {
+          "name": "capture.one"
+        },
+        "2": {
+          "name": "capture.two"
+        }
+      }
+    },
+    "#ts-check-directive": {
+      "match": "[(?<=/*\\s+)|(?<=//\\s+)](@ts-check\\s)",
+      "name": "directive.ts.check"
+    }
+  }
+}

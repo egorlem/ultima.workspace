@@ -1,0 +1,44 @@
+{
+  "scopeName": "spa.pragmas",
+  "injectionSelector": "L:(meta.embedded.block.javascript | meta.embedded.block.typescript | source.js | source.ts | source.tsx | source.vue | source.svelte | source.astro) -string -comment",
+  "patterns": [
+    {
+      "include": "#use-client-pragma"
+    },
+    {
+      "include": "#use-server-pragma"
+    }
+  ],
+  "repository": {
+    "use-client-pragma": {
+      "begin": "\\s*('|\")\\s*(\\buse client\\b)\\s*('|\")",
+      "end": "?<=('|\")",
+      "beginCaptures": {
+        "1": { 
+          "name": "punctuation.definition.string.begin.pragma"
+        },
+        "2": {
+          "name": "string.quoted.pragma.client"
+        },
+        "3": {
+          "name": "punctuation.definition.string.end.pragma"
+        }
+      }
+    },
+    "use-server-pragma": {
+      "begin": "\\s*('|\")\\s*(\\buse server\\b)\\s*('|\")",
+      "end": "?<=('|\")",
+      "beginCaptures": {
+        "1": { 
+          "name": "punctuation.definition.string.begin.pragma"
+        },
+        "2": {
+          "name": "string.quoted.pragma.server"
+        },
+        "3": {
+          "name": "punctuation.definition.string.end.pragma"
+        }
+      }
+    }
+  }
+}

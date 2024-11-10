@@ -1,0 +1,45 @@
+{
+  "name": "js-pragmas-highlight",
+  "displayName": "JS Pragmas Highlight",
+  "publisher": "guezwhoz-schema",
+  "license": "MIT",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/SinglePageApplication/rules.json",
+        "scopeName": "spa.pragmas",
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
+      },
+      {
+        "path": "./syntaxes/TypeScript/rules.json",
+        "scopeName": "comment.ts.directives",
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
+      }
+    ]
+  }
+}
