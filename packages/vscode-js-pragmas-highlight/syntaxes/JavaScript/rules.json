@@ -1,0 +1,44 @@
+{
+  "scopeName": "js.pragmas",
+  "injectionSelector": "L:(meta.embedded.block.javascript | meta.embedded.block.typescript | source.js | source.ts | source.tsx | source.vue | source.svelte | source.astro) -string -comment",
+  "patterns": [
+    {
+      "include": "#use-strict-pragma"
+    },
+    {
+      "include": "#use-asm-pragma"
+    }
+  ],
+  "repository": {
+    "use-strict-pragma": {
+      "begin": "\\s*('|\")\\s*(\\buse strict\\b)\\s*('|\")",
+      "end": "?<=('|\")",
+      "beginCaptures": {
+        "1": { 
+          "name": "punctuation.definition.string.begin.pragma"
+        },
+        "2": {
+          "name": "string.quoted.pragma.strict"
+        },
+        "3": {
+          "name": "punctuation.definition.string.end.pragma"
+        }
+      }
+    },
+    "use-asm-pragma": {
+      "begin": "\\s*('|\")\\s*(\\buse asm\\b)\\s*('|\")",
+      "end": "?<=('|\")",
+      "beginCaptures": {
+        "1": { 
+          "name": "punctuation.definition.string.begin.pragma"
+        },
+        "2": {
+          "name": "string.quoted.pragma.asm"
+        },
+        "3": {
+          "name": "punctuation.definition.string.end.pragma"
+        }
+      }
+    }
+  }
+}

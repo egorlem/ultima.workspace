@@ -26,6 +26,21 @@
         ]
       },
       {
+        "path": "./syntaxes/JavaScript/rules.json",
+        "scopeName": "js.pragmas",
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
+      },
+      {
         "path": "./syntaxes/TypeScript/rules.json",
         "scopeName": "comment.ts.directives",
         "injectTo": [
