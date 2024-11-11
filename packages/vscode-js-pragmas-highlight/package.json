@@ -42,7 +42,7 @@
       },
       {
         "path": "./syntaxes/TypeScript/rules.json",
-        "scopeName": "comment.ts.directives",
+        "scopeName": "ts.pragmas",
         "injectTo": [
           "source.ts",
           "source.tsx",

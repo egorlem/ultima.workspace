@@ -1,6 +1,6 @@
 {
-  "name": "directive",
-  "scopeName": "comment.ts.directives",
+  "name": "ts.pragmas",
+  "scopeName": "comment.ts.pragmas",
   "injectionSelector": "L:comment",
   "patterns": [
     {
