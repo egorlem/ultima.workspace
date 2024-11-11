@@ -4,14 +4,14 @@
   "publisher": "guezwhoz-schema",
   "license": "MIT",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.60.0"
   },
   "contributes": {
     "grammars": [
       {
-        "path": "./syntaxes/SinglePageApplication/rules.json",
+        "path": "./syntaxes/pragmas.eslint.json",
         "scopeName": "spa.pragmas",
         "injectTo": [
           "source.js",
@@ -26,7 +26,7 @@
         ]
       },
       {
-        "path": "./syntaxes/JavaScript/rules.json",
+        "path": "./syntaxes/pragmas.js.json",
         "scopeName": "js.pragmas",
         "injectTo": [
           "source.js",
@@ -41,7 +41,7 @@
         ]
       },
       {
-        "path": "./syntaxes/TypeScript/rules.json",
+        "path": "./syntaxes/pragmas.ts.json",
         "scopeName": "ts.pragmas",
         "injectTo": [
           "source.ts",
@@ -54,7 +54,7 @@
         ]
       },
       {
-        "path": "./syntaxes/ESLint/rules.json",
+        "path": "./syntaxes/pragmas.eslint.json",
         "scopeName": "eslint.pragmas",
         "injectTo": [
           "source.js",
