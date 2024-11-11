@@ -1,47 +1,32 @@
 {
   "name": "directive",
   "scopeName": "comment.ts.directives",
-  "injectionSelector": [
-    "L:comment"
-  ],
+  "injectionSelector": "L:comment",
   "patterns": [
     {
-      "include": "#ts-check-directive"
-    },
-    {
-      "include": "#ts-ignore-directive"
-    },
-    {
-      "include": "#ts-nocheck-directive"
-    },
-    {
-      "include": "#ts-expect-error-directive"
+      "include": "#typescript-pragmas"
     }
   ],
   "repository": {
-    "ts-ignore-directive": {
-      "match": "(@ts3333-)\\w+",
-      "name": "directive.ts.ignore"
-    },
-    "ts-nocheck-directive": {
-      "match": "[(?<=/*\\s+)|(?<=//\\s+)](@ts-nocheck\\s)",
-      "name": "directive.ts.nocheck"
-    },
-    "ts-expect-error-directive": {
-      "match": "(@ts)(-\\w+)*",
-      "name": "directive.ts.error",
+    "typescript-pragmas": {
+      "match": "\\s*(@\\bts-(?:(ignore)|(nocheck)|(check)|(expect-error)))",
       "captures": {
-        "1": {
-          "name": "capture.one"
+        "1": { 
+          "name": "comment.pragma.ts"
         },
-        "2": {
-          "name": "capture.two"
+        "2": { 
+          "name": "comment.pragma.ts.ignore"
+        },
+        "3": { 
+          "name": "comment.pragma.ts.nocheck"
+        },
+        "4": { 
+          "name": "comment.pragma.ts.check"
+        },
+        "5": { 
+          "name": "comment.pragma.ts.error"
         }
       }
-    },
-    "#ts-check-directive": {
-      "match": "[(?<=/*\\s+)|(?<=//\\s+)](@ts-check\\s)",
-      "name": "directive.ts.check"
     }
   }
 }

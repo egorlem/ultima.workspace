@@ -29,3 +29,5 @@ ESLint
 
 
 L:(meta.embedded.block.javascript | meta.embedded.block.typescript | source.js | source.ts | source.tsx | source.vue | source.svelte | source.astro) -string -comment
+
+"\\s*(@\\bts-ignore\\b)?\\s*",

@@ -44,9 +44,7 @@
         "path": "./syntaxes/TypeScript/rules.json",
         "scopeName": "comment.ts.directives",
         "injectTo": [
-          "source.js",
           "source.ts",
-          "source.js.jsx",
           "source.tsx",
           "source.vue",
           "source.svelte",
