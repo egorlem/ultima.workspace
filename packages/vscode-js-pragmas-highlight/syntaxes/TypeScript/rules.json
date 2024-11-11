@@ -1,6 +1,5 @@
 {
-  "name": "ts.pragmas",
-  "scopeName": "comment.ts.pragmas",
+  "scopeName": "ts.pragmas",
   "injectionSelector": "L:comment",
   "patterns": [
     {
