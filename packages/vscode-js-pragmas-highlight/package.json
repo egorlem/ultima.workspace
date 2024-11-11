@@ -52,6 +52,21 @@
           "text.html.markdown",
           "text.html.derivative"
         ]
+      },
+      {
+        "path": "./syntaxes/ESLint/rules.json",
+        "scopeName": "eslint.pragmas",
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
       }
     ]
   }
