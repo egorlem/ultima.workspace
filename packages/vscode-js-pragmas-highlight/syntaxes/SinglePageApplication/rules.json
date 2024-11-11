@@ -1,6 +1,6 @@
 {
   "scopeName": "spa.pragmas",
-  "injectionSelector": "L:(meta.embedded.block.javascript | meta.embedded.block.typescript | source.js | source.ts | source.tsx | source.vue | source.svelte | source.astro) -string -comment",
+  "injectionSelector": "L:(meta.embedded.block.javascript | meta.embedded.block.typescript | source.js | source.ts | source.tsx ) -string -comment -meta.var.expr",
   "patterns": [
     {
       "include": "#use-client-pragma"
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "use-client-pragma": {
-      "begin": "\\s*('|\")\\s*(\\buse client\\b)\\s*('|\")",
+      "begin": "^\\s*('|\")\\s*(\\buse client\\b)\\s*('|\")",
       "end": "?<=('|\")",
       "beginCaptures": {
         "1": { 
@@ -26,7 +26,7 @@
       }
     },
     "use-server-pragma": {
-      "begin": "\\s*('|\")\\s*(\\buse server\\b)\\s*('|\")",
+      "begin": "^\\s*('|\")\\s*(\\buse server\\b)\\s*('|\")",
       "end": "?<=('|\")",
       "beginCaptures": {
         "1": { 

@@ -24,3 +24,8 @@ ESLint
 - eslint-disable-next-line
 - eslint-disable-line
 - eslint-enable
+
+
+
+
+L:(meta.embedded.block.javascript | meta.embedded.block.typescript | source.js | source.ts | source.tsx | source.vue | source.svelte | source.astro) -string -comment
