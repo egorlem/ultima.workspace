@@ -71,3 +71,6 @@ Add this to setting.json
     ]
 	}
 ```
+
+License [MIT](https://github.com/egorlem/ultima.workspace/blob/8c54db8b8cbdb6eaf358aadc46b827fe668ba499/packages/vscode-js-pragmas-highlight/LICENSE) : [Egor Lem](https://egorlem.com/)
+
