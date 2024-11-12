@@ -1,0 +1,31 @@
+{
+  "scopeName": "eslint.pragmas",
+  "injectionSelector": "L:comment",
+  "patterns": [
+    {
+      "include": "#eslint-pragmas"
+    }
+  ],
+  "repository": {
+    "eslint-pragmas": {
+      "match": "\\s*(eslint-(?:(disable-next-line)|(disable-line)|(disable)|(enable)))",
+      "captures": {
+        "1": { 
+          "name": "comment.pragma.eslint"
+        },
+        "2": { 
+          "name": "comment.pragma.eslint.nextline"
+        },
+        "3": { 
+          "name": "comment.pragma.eslint.line"
+        },
+        "4": { 
+          "name": "comment.pragma.eslint.disable."
+        },
+        "5": { 
+          "name": "comment.pragma.ts.enable"
+        }
+      }
+    }
+  }
+}

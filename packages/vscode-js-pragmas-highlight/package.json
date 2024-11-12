@@ -1,0 +1,91 @@
+{
+  "name": "js-pragmas-highlight",
+  "displayName": "JS Pragmas Highlight",
+  "publisher": "guezwhoz-schema",
+  "license": "MIT",
+  "description": "Adds semantic tokens for pragmas from JavaScript, TypeScript, ESLint, Next JS",
+  "version": "0.1.2",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1c1c1c",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egorlem/ultima.workspace.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "bugs": {
+    "url": "https://github.com/guesswhozzz/ultima.workspace/issues",
+    "email": "guezwhoz@gmail.com"
+  },
+  "homepage": "https://github.com/guesswhozzz/ultima.workspace",
+  "pricing": "Free",
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/pragmas.spa.json",
+        "scopeName": "spa.pragmas",
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
+      },
+      {
+        "path": "./syntaxes/pragmas.js.json",
+        "scopeName": "js.pragmas",
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
+      },
+      {
+        "path": "./syntaxes/pragmas.ts.json",
+        "scopeName": "ts.pragmas",
+        "injectTo": [
+          "source.ts",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
+      },
+      {
+        "path": "./syntaxes/pragmas.eslint.json",
+        "scopeName": "eslint.pragmas",
+        "injectTo": [
+          "source.js",
+          "source.ts",
+          "source.js.jsx",
+          "source.tsx",
+          "source.vue",
+          "source.svelte",
+          "source.astro",
+          "text.html.markdown",
+          "text.html.derivative"
+        ]
+      }
+    ]
+  }
+}

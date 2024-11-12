@@ -1,0 +1,31 @@
+{
+  "scopeName": "ts.pragmas",
+  "injectionSelector": "L:comment",
+  "patterns": [
+    {
+      "include": "#typescript-pragmas"
+    }
+  ],
+  "repository": {
+    "typescript-pragmas": {
+      "match": "\\s*(@\\bts-(?:(ignore)|(nocheck)|(check)|(expect-error)))",
+      "captures": {
+        "1": { 
+          "name": "comment.pragma.ts"
+        },
+        "2": { 
+          "name": "comment.pragma.ts.ignore"
+        },
+        "3": { 
+          "name": "comment.pragma.ts.nocheck"
+        },
+        "4": { 
+          "name": "comment.pragma.ts.check"
+        },
+        "5": { 
+          "name": "comment.pragma.ts.error"
+        }
+      }
+    }
+  }
+}
