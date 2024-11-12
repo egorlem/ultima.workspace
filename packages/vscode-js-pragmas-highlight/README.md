@@ -1,33 +1,40 @@
 # JS Directives Highlight
 
-## Pragmas are declared as string literals 
+The plugin adds semantic tokens for pragmas from JavaScript, TypeScript, ESLint, Next JS
 
-ECMAScript 
-- 'use asm'
-- 'use strict'
+## Pragmas are declared as string literals
 
-NextJS
-- 'use client' 
-- 'use server'
+### ECMAScript
+
+| pragma | token |
+| --- | --- |
+| ```'use asm'``` | string.quoted.pragma.asm |
+| ```'use strict'``` | string.quoted.pragma.srtict |
+
+### NextJS
+
+| pragma | token |
+| --- | --- |
+| ```'use client'``` | string.quoted.pragma.client |
+| ```'use server'``` | string.quoted.pragma.server |
 
 ## Pragmas are declared as comment 
 
-TypeScript
-- @ts-expect-error 
-- @ts-check
-- @ts-nocheck
-- @ts-ignore
+### TypeScript
 
-ESLint 
-- eslint
-- eslint-disable 
-- eslint-disable-next-line
-- eslint-disable-line
-- eslint-enable
+| pragma | token |
+| --- | --- |
+| ```@ts-expect-error``` | comment.pragma.ts.error |
+| ```@ts-check``` | comment.pragma.ts.check |
+| ```@ts-nocheck``` | comment.pragma.ts.nocheck |
+| ```@ts-ignore``` | comment.pragma.ts.ignore |
 
+### ESLint
 
+| pragma | token |
+| --- | --- |
+| ```eslint-disable``` |  comment.pragma.eslint.disable |
+| ```eslint-disable-next-line``` | comment.pragma.eslint.nextline |
+| ```eslint-disable-line``` | comment.pragma.eslint.nextline |
+| ```eslint-enable``` | comment.pragma.eslint.enable |
 
-
-L:(meta.embedded.block.javascript | meta.embedded.block.typescript | source.js | source.ts | source.tsx | source.vue | source.svelte | source.astro) -string -comment
-
-"\\s*(@\\bts-ignore\\b)?\\s*",

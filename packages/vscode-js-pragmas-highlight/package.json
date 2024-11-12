@@ -3,15 +3,33 @@
   "displayName": "JS Pragmas Highlight",
   "publisher": "guezwhoz-schema",
   "license": "MIT",
-  "description": "",
-  "version": "0.1.1",
+  "description": "Adds semantic tokens for pragmas from JavaScript, TypeScript, ESLint, Next JS",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.60.0"
   },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1c1c1c",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egorlem/ultima.workspace.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "bugs": {
+    "url": "https://github.com/guesswhozzz/ultima.workspace/issues",
+    "email": "guezwhoz@gmail.com"
+  },
+  "homepage": "https://github.com/guesswhozzz/ultima.workspace",
+  "pricing": "Free",
   "contributes": {
     "grammars": [
       {
-        "path": "./syntaxes/pragmas.eslint.json",
+        "path": "./syntaxes/pragmas.spa.json",
         "scopeName": "spa.pragmas",
         "injectTo": [
           "source.js",
