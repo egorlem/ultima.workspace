@@ -40,3 +40,34 @@ The plugin adds semantic tokens for pragmas from JavaScript, TypeScript, ESLint,
 | ```eslint-disable-line``` | comment.pragma.eslint.nextline |
 | ```eslint-enable``` | comment.pragma.eslint.enable |
 
+
+## Add custom color
+
+Add this to setting.json 
+
+```json
+	"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": [
+              "comment.pragma"
+              "comment.pragma.eslint.disable", 
+            ], // <== token
+            "settings": {
+                "foreground": "#32CD32",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+              "string.quoted.pragma"
+              "string.quoted.pragma.server", 
+            ], // <== token
+            "settings": {
+                "foreground": "#DC143C",
+                "fontStyle": "italic"
+            }
+        }
+    ]
+	}
+```
