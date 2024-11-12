@@ -2,6 +2,8 @@
 
 The plugin adds semantic tokens for pragmas from JavaScript, TypeScript, ESLint, Next JS
 
+![js prgama](https://github.com/egorlem/ultima.workspace/blob/main/demos/js-pragmas-highlight-demo.png?raw=true)
+
 ## Pragmas are declared as string literals
 
 ### ECMAScript
