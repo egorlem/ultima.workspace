@@ -6,19 +6,11 @@
 	"version": "0.2.0",
     "configurations": [
         {
-            "name": "Run: JS Pragmas Highlight Plugin",
+            "name": "Extension",
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-js-pragmas-highlight"
-            ]
-        },
-        {
-            "name": "Run: ECMA48 Highlight",
-            "type": "extensionHost",
-            "request": "launch",
-            "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-ecma48-highlight"
+                "--extensionDevelopmentPath=${workspaceFolder}"
             ]
         }
     ]
