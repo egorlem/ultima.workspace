@@ -8,11 +8,26 @@
   "engines": {
     "vscode": "^1.60.0"
   },
+  "author": {
+    "name": "Egor Lem",
+    "email": "guezwhoz@gmail.com",
+    "url": "https://egorlem.com"
+  },
   "icon": "icon.png",
   "galleryBanner": {
     "color": "#1c1c1c",
     "theme": "dark"
   },
+  "keywords": [
+    "eslint",
+    "visual studio code",
+    "plugin",
+    "react",
+    "javascript",
+    "typescript",
+    "next",
+    "syntax"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/egorlem/ultima.workspace.git"
@@ -21,10 +36,10 @@
     "Other"
   ],
   "bugs": {
-    "url": "https://github.com/guesswhozzz/ultima.workspace/issues",
+    "url": "https://github.com/egorlem/ultima.workspace/issues",
     "email": "guezwhoz@gmail.com"
   },
-  "homepage": "https://github.com/guesswhozzz/ultima.workspace",
+  "homepage": "https://github.com/egorlem/ultima.workspace",
   "pricing": "Free",
   "contributes": {
     "grammars": [
