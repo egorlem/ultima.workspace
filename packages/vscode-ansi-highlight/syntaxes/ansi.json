@@ -1,0 +1,22 @@
+{
+  "scopeName": "ansi",
+  "injectionSelector": "L:string.quoted",
+  "patterns": [
+    {
+      "include": "#ansi-csi"
+    }
+  ],
+  "repository": {
+    "ansi-csi": {
+      "match": "(\\[)(\\.*\\d+m)+",
+      "captures": {
+        "1": { 
+          "name": "constant.character.escape.sci"
+        },
+        "2": { 
+          "name": "constant.character.escape.parameters"
+        }
+      }
+    }
+  }
+}

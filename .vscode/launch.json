@@ -14,11 +14,11 @@
             ]
         },
         {
-            "name": "Run: ECMA48 Highlight",
+            "name": "Run: JS/ANSI Highlight",
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-ecma48-highlight"
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-ansi-highlight"
             ]
         }
     ]
