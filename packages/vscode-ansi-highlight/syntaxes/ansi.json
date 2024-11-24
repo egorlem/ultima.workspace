@@ -4,6 +4,9 @@
   "patterns": [
     {
       "include": "#ansi-csi"
+    },
+    {
+      "include": "#specifiers"
     }
   ],
   "repository": {
@@ -15,6 +18,14 @@
         },
         "2": { 
           "name": "constant.character.escape.parameters"
+        }
+      }
+    },
+    "specifiers": {
+      "match": "(%(s|d|i|f|o|O|c|j))",
+      "captures": {
+        "1": { 
+          "name": "constant.character.escape.specifier"
         }
       }
     }
