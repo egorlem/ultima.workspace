@@ -1,4 +1,6 @@
-JS/ANSI Plugin
+# JS/ANSI Plugin
+
+Adds semantic tokens to escape sequences in JavaScript strings
 
 ### Formatting specifiers
 

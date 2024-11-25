@@ -1,8 +1,10 @@
 {
   "name": "js-ansi",
   "displayName": "JS/ANSI",
-  "description": "",
-  "version": "0.0.1",
+  "description": "Adds semantic tokens to escape sequences in JavaScript strings",
+  "publisher": "guezwhoz-schema",
+  "license": "MIT",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.60.0"
   },
