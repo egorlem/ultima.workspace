@@ -16,3 +16,9 @@ Adds semantic tokens to escape sequences in JavaScript strings
 | ```SCI n=1-107 m``` | constant.character.escape.parameters.sgr | 
 | ```SCI 38:5:n=1-255 m``` | constant.character.escape.parameters.sgr | 
 | ```SCI 48:5:n=1-255 m``` | constant.character.escape.parameters.sgr | 
+
+
+(\\\\(x1b|033)\\[)
+
+
+(\\\\x1b\\[)
