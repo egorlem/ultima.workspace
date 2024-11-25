@@ -3,21 +3,21 @@
   "injectionSelector": "L:string.quoted",
   "patterns": [
     {
-      "include": "#ansi-csi"
+      "include": "#ansi-graphic"
     },
     {
       "include": "#specifiers"
     }
   ],
   "repository": {
-    "ansi-csi": {
-      "match": "(\\[)(\\.*\\d+m)+",
+    "ansi-graphic": {
+      "match": "(\\[(\\d+;*)+m)",
       "captures": {
         "1": { 
-          "name": "constant.character.escape.sci"
+          "name": "constant.character.escape.parameters"
         },
         "2": { 
-          "name": "constant.character.escape.parameters"
+          "name": "constant.character.escape.parameters.sgr"
         }
       }
     },
