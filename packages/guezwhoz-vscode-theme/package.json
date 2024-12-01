@@ -1,0 +1,81 @@
+{
+  "name": "guezwhoz-vscode-theme",
+  "displayName": "Guezwhoz Theme",
+  "description": "Dark vscode theme based on cool palette.",
+  "publisher": "guezwhoz-schema",
+  "version": "1.2.6",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1c1c1c",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Guezwhoz",
+        "label": "Guezwhoz Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/guezwhoz-dark-theme.json"
+      },
+      {
+        "id": "Guezwhoz v2",
+        "label": "Guezwhoz Dark v2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/guezwhoz-dark-theme-next.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "Guezwhoz (icons-set)",
+        "label": "Guezwhoz (icons)",
+        "path": "./fileicons/guezwhoz-icon-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "path": "./syntaxes/todo/hltodo.jsdoc.json",
+        "scopeName": "jsdoc-comment",
+        "injectTo": [
+          "source.js",
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
+        ]
+      },
+      {
+        "path": "./syntaxes/todo/hltodo.doubleslash.json",
+        "scopeName": "double-slash-comment",
+        "injectTo": [
+          "source"
+        ]
+      },
+      {
+        "path": "./syntaxes/todo/hltodo.ml.json",
+        "scopeName": "ml-comment",
+        "injectTo": [
+          "text"
+        ]
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme/issues",
+    "email": "guezwhoz@gmail.com"
+  },
+  "homepage": "https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/README.md"
+}

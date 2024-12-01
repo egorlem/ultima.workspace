@@ -1,7 +1,3 @@
-// A launch configuration that launches the extension inside a new window
-// Use IntelliSense to learn about possible attributes.
-// Hover to view descriptions of existing attributes.
-// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
 {
 	"version": "0.2.0",
     "configurations": [
@@ -10,7 +6,23 @@
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}"
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-js-pragmas-highlight"
+            ]
+        },
+        {
+            "name": "Run: JS/ANSI Highlight",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-ansi-highlight"
+            ]
+        },
+        {
+            "name": "Run: Ultima Theme",
+            "type": "extensionHost",
+            "request": "launch",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode-js-pragmas-highlight"
             ]
         }
     ]
