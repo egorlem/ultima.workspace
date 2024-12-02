@@ -1,6 +1,18 @@
-# Guezwhoz schema for Visual Studio Code
+# Ultima theme for Visual Studio Code
 
-#### A Visual Studio Code dark theme based on cool color palette.
+**WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony**
+
+---
+
+## Preview
+
+### JavaScript
+
+![js](https://github.com/egorlem/ultima.workspace/blob/e50846485a7526df8872111bf28dda1b6cc316f0/demos/ultima-vscode-theme-js.png?raw=true)
+
+### CSS / SCSS 
+
+![css](https://github.com/egorlem/ultima.workspace/blob/e50846485a7526df8872111bf28dda1b6cc316f0/demos/ultima-vscode-theme-js.png?raw=true)
 
 ---
 
@@ -10,24 +22,30 @@
 
 1. Open the Extensions sidebar in VS Code
    "[ Windows | Linux `Ctrl + P` ] [ MacOS `⌘ + P` ]"
-2. Search for Guezhowz Theme
-   "`ext install Guezwhoz Theme`"
+2. Search for Ultima Theme
+   "`ext install Ultima Theme`"
 3. Click `Install`
 4. Open the Command Palette
    "[ Windows | Linux `Ctrl + K` `Ctrl + P` ] [ MacOS `⌘ + K` `⌘ + T` ]"
 
-5. Select Preferences: Color Theme and choose a `Guezwhoz Theme (Variant)`.
+5. Select Preferences: Color Theme and choose a `Ultima`.
 
-### Install manually
+<!-- ### Install manually
 
 You can also install a Theme from [Releases page](https://github.com/guesswhozzz/guezwhoz-vscode-theme/releases) by following the [Install from a VSIX instructions](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix). The easiest way is through the command line:
-`code --install-extension guezwhoz-vscode-theme-<version>.vsix`
+`code --install-extension guezwhoz-vscode-theme-<version>.vsix` -->
 
 ---
 
-## Preview
+## Accessibility
 
-![vscode-theme-demo](https://github.com/guesswhozzz/guezwhoz-scheme/blob/main/demos/vscode-theme-js-demo-min.png?raw=true)
+### [WCAG 2.1 - 1.4.3 Contrast](https://www.w3.org/TR/WCAG21/#contrast-minimum)
+
+All base colors have a contrast ratio greater than 4.5 : 1, meeting WCAG 2.1 recommendations for Level AA.
+
+### [Color blind safe theme](https://color.adobe.com/Ultima-color-theme-bb7fca96-3dbb-4785-a39d-3625c87f08d8/)
+
+All colors were selected using a [special tool from Adobe](https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html) to avoid potential confusion for people with color blindness. 
 
 ---
 
@@ -35,7 +53,7 @@ You can also install a Theme from [Releases page](https://github.com/guesswhozzz
 
 ### For ZSH users
 
-> I recommend installing the [guezwhoz-zsh-theme](https://github.com/guesswhozzz/guezwhoz-zshell) for zsh. This theme turns your terminal and code editor into a single workspace.
+> I recommend installing the [ultima-zsh.theme](https://github.com/egorlem/ultima.zsh-theme) for zsh. This theme turns your terminal and code editor into a single workspace.
 
 ### Setings.json
 
@@ -52,12 +70,8 @@ You can also install a Theme from [Releases page](https://github.com/guesswhozzz
   "editor.fontLigatures": true
 }
 ```
-### Extra 
-
-You can also find this color scheme for other development tools in [special repository](https://github.com/guesswhozzz/guezwhoz-scheme)
 
 ---
+ License MIT : [Egor Lem](https://egorlem.com/)
 
-Changelog [CHANGELOG.md](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/0fe85b325787278f277bb6af028c5cd7c670ccb1/CHANGELOG.md)
-
-License [MIT](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/LICENSE) © [Egor Lem](https://github.com/guesswhozzz)
+<!-- License [MIT](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/LICENSE) © [Egor Lem](https://github.com/guesswhozzz) -->

@@ -59,7 +59,7 @@
         "meta.paragraph.markdown"
       ],
       "settings": {
-        "foreground": "#dadada"
+        "foreground": "#DDE3DC"
       }
     },
     {
@@ -69,7 +69,7 @@
         "text.html.markdown"
       ],
       "settings": {
-        "foreground": "#dadada"
+        "foreground": "#DDE3DC"
       }
     },
     {
@@ -200,7 +200,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#858585"
+        "foreground": "#616360"
       }
     },
     {
@@ -209,7 +209,7 @@
         "meta.property-list"
       ],
       "settings": {
-        "foreground": "#858585"
+        "foreground": "#616360"
       }
     },
     {
@@ -217,7 +217,7 @@
       "scope": [
       ],
       "settings": {
-        "foreground": "#9e9e9e"
+        "foreground": "#616360"
       }
     },
     {
@@ -323,7 +323,7 @@
     "terminal.ansiBlue": "#5BA2D9",
     "terminal.ansiMagenta": "#8581DA",
     "terminal.ansiCyan": "#59D9D0",
-    "terminal.ansiWhite": "#dadada",
+    "terminal.ansiWhite": "#C2BAC2",
     "terminal.ansiBrightBlack": "#595959",
     "terminal.ansiBrightRed": "#FF598E",
     "terminal.ansiBrightGreen": "#91FFB0",
@@ -331,6 +331,6 @@
     "terminal.ansiBrightBlue": "#6BBFFF",
     "terminal.ansiBrightMagenta": "#9C96FF",
     "terminal.ansiBrightCyan": "#69FFF5",
-    "terminal.ansiBrightWhite": "#F2F2F2"
+    "terminal.ansiBrightWhite": "#F5EBF5"
   }
 }
