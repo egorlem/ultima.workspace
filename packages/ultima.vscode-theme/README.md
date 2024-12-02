@@ -8,11 +8,11 @@
 
 ### JavaScript
 
-![js](https://github.com/egorlem/ultima.workspace/blob/e50846485a7526df8872111bf28dda1b6cc316f0/demos/ultima-vscode-theme-js.png?raw=true)
+![js](https://github.com/egorlem/ultima.workspace/blob/main/demos/ultima-vscode-theme-js.png?raw=true)
 
 ### CSS / SCSS 
 
-![css](https://github.com/egorlem/ultima.workspace/blob/e50846485a7526df8872111bf28dda1b6cc316f0/demos/ultima-vscode-theme-js.png?raw=true)
+![css](https://github.com/egorlem/ultima.workspace/blob/186006bf1779cae50b5e9a663b7193682318a0f4/demos/ultima-vscode-theme-scss.png?raw=true)
 
 ---
 
@@ -41,7 +41,7 @@ You can also install a Theme from [Releases page](https://github.com/guesswhozzz
 
 ### [WCAG 2.1 - 1.4.3 Contrast](https://www.w3.org/TR/WCAG21/#contrast-minimum)
 
-All base colors have a contrast ratio greater than 4.5 : 1, meeting WCAG 2.1 recommendations for Level AA.
+All base colors have a contrast ratio greater than 4.5 : 1, meeting WCAG 2.1 recommendations for level AA.
 
 ### [Color blind safe theme](https://color.adobe.com/Ultima-color-theme-bb7fca96-3dbb-4785-a39d-3625c87f08d8/)
 
