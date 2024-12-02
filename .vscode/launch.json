@@ -22,7 +22,7 @@
             "type": "extensionHost",
             "request": "launch",
             "args": [
-                "--extensionDevelopmentPath=${workspaceFolder}/packages/guezwhoz-vscode-theme"
+                "--extensionDevelopmentPath=${workspaceFolder}/packages/ultima.vscode-theme"
             ]
         }
     ]
