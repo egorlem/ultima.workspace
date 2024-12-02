@@ -2,8 +2,6 @@
 
 **WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony**
 
-![GitHub License](https://img.shields.io/github/license/egorlem/ultima.workspace?style=for-the-badge&labelColor=212121&color=7CD996)
-
 ---
 
 ## Preview
