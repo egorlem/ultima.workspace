@@ -1,0 +1,42 @@
+{
+  "name": "ultima-vscode-theme",
+  "displayName": "Ultima Theme",
+  "description": "WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony",
+  "publisher": "guezwhoz-schema",
+  "version": "2.0.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1c1c1c",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme.git"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Ultima Workspace",
+        "label": "Ultima",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ultima.json"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/guesswhozzz/guezwhoz-vscode-theme/issues",
+    "email": "guezwhoz@gmail.com"
+  },
+  "homepage": "https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/README.md"
+}
