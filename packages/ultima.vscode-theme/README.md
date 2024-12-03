@@ -31,10 +31,10 @@
 
 5. Select Preferences: Color Theme and choose a `Ultima`.
 
-<!-- ### Install manually
+### Install manually
 
-You can also install a Theme from [Releases page](https://github.com/guesswhozzz/guezwhoz-vscode-theme/releases) by following the [Install from a VSIX instructions](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix). The easiest way is through the command line:
-`code --install-extension guezwhoz-vscode-theme-<version>.vsix` -->
+You can also install a Theme from *.vsix file by following the [Install from a VSIX instructions](https://code.visualstudio.com/docs/editor/extension-gallery#_install-from-a-vsix). The easiest way is through the command line:
+`code --install-extension ultima-vscode-theme-<version>.vsix`
 
 ---
 
@@ -72,7 +72,5 @@ All colors were selected using a [special tool from Adobe](https://helpx.adobe.c
 }
 ```
 
----
- License MIT : [Egor Lem](https://egorlem.com/)
 
-<!-- License [MIT](https://github.com/guesswhozzz/guezwhoz-vscode-theme/blob/master/LICENSE) © [Egor Lem](https://github.com/guesswhozzz) -->
+License [MIT](https://github.com/egorlem/ultima.workspace/blob/66aa36cca06a6806cc18dab8a942f2b24db5f932/packages/ultima.vscode-theme/LICENSE) : [Egor Lem](https://egorlem.com/)
