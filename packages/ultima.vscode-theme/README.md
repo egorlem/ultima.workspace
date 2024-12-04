@@ -1,6 +1,6 @@
-# Ultima theme for Visual Studio Code
+# Ultima theme for [Visual Studio Code](https://code.visualstudio.com/)
 
-**WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony**
+**WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony.**
 
 [![Install from Marketplace](https://img.shields.io/badge/Visual_Studio_Code-Marketplace-blue?style=for-the-badge&color=7CD996&labelColor=212121)](https://marketplace.visualstudio.com/items?itemName=guezwhoz-schema.ultima-vscode-theme "License")
 ![GitHub License](https://img.shields.io/github/license/egorlem/ultima.workspace?style=for-the-badge&color=59D9D0&labelColor=212121)

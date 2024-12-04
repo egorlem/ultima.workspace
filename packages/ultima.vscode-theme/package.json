@@ -1,9 +1,9 @@
 {
   "name": "ultima-vscode-theme",
   "displayName": "Ultima Theme",
-  "description": "WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony",
+  "description": "WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony.",
   "publisher": "guezwhoz-schema",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
@@ -28,9 +28,9 @@
   },
   "keywords": [
     "Theme",
-    "Dark Theme",
-    "Color Blind Safe",
-    "WCAG"
+    "Dark theme",
+    "Color blind safe theme",
+    "WCAG 2.1 AA"
   ],
   "contributes": {
     "themes": [
