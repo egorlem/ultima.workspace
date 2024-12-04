@@ -1,0 +1,38 @@
+{
+  "scopeName": "ml-comment",
+  "injectionSelector": [
+      "comment.block"
+    ],
+  "patterns": [
+    {
+      "include": "#todo-keyword-ml"
+    },
+    {
+      "include": "#fixit-keyword-ml"
+    },
+    {
+      "include": "#note-keyword-ml"
+    },
+    {
+      "include": "#bug-keyword-ml"
+    }
+  ],
+  "repository": {
+    "todo-keyword-ml": {
+      "match": "(?<=<!-- )(TODO|todo)|(TODO|todo)(?=:)",
+      "name": "keyword.todo.ml"
+    },
+    "fixit-keyword-ml": {
+      "match": "(?<=<!-- )(FIXIT|fixit)|(FIXIT|fixit)(?=:)",
+      "name": "keyword.fixit.ml"
+    },
+    "note-keyword-ml": {
+      "match": "(?<=<!-- )(NOTE|note)|(NOTE|note)(?=:)",
+      "name": "keyword.note.ml"
+    },
+    "bug-keyword-ml": {
+      "match": "(?<=<!-- )(BUG|bug)|(BUG|bug)(?=:)",
+      "name": "keyword.bug.ml"
+    }
+  }
+}
