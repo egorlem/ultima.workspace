@@ -73,7 +73,7 @@ All colors were selected using a [special tool from Adobe](https://helpx.adobe.c
 ```
 ### Extra
 
-**The package includes the achive [guezwhoz.vscode-theme](https://github.com/egorlem/guezwhoz.vscode-theme)**
+> **The package includes the achive [guezwhoz.vscode-theme](https://github.com/egorlem/guezwhoz.vscode-theme)**
 
 ---
 
