@@ -3,7 +3,7 @@
   "displayName": "Ultima Theme",
   "description": "WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony.",
   "publisher": "guezwhoz-schema",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "license": "MIT",
   "engines": {
     "vscode": "^1.50.0"
@@ -35,13 +35,13 @@
   "contributes": {
     "themes": [
       {
-        "id": "Ultima Workspace",
+        "id": "Ultima Workspace (Balanced)",
         "label": "Ultima",
         "uiTheme": "vs-dark",
         "path": "./themes/ultima.json"
       },
       {
-        "id": "Ultima Workspace",
+        "id": "Ultima Workspace (GWZ)",
         "label": "Guezwhoz",
         "uiTheme": "vs-dark",
         "path": "./themes/gwz.json"

@@ -1,4 +1,4 @@
-# Ultima theme for [Visual Studio Code](https://code.visualstudio.com/)
+# Ultima theme for Visual Studio Code
 
 **WCAG 2.1 AA balanced dark theme for VS Code, built in colors with analogous harmony.**
 
@@ -54,7 +54,7 @@ All colors were selected using a [special tool from Adobe](https://helpx.adobe.c
 
 ### For ZSH users
 
-> I recommend installing the [ultima-zsh.theme](https://github.com/egorlem/ultima.zsh-theme) for zsh. This theme turns your terminal and code editor into a single workspace.
+> I recommend installing the [ultima.zsh-theme](https://github.com/egorlem/ultima.zsh-theme) for zsh. This theme turns your terminal and code editor into a single workspace.
 
 ### Setings.json
 
@@ -71,6 +71,10 @@ All colors were selected using a [special tool from Adobe](https://helpx.adobe.c
   "editor.fontLigatures": true
 }
 ```
+### Extra
 
+**The package includes the achive [guezwhoz.vscode-theme](https://github.com/egorlem/guezwhoz.vscode-theme)**
+
+---
 
 License [MIT](https://github.com/egorlem/ultima.workspace/blob/66aa36cca06a6806cc18dab8a942f2b24db5f932/packages/ultima.vscode-theme/LICENSE) : [Egor Lem](https://egorlem.com/)
