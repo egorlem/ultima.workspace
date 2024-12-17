@@ -77,4 +77,4 @@ All colors were selected using a [special tool from Adobe](https://helpx.adobe.c
 
 ---
 
-License [MIT](https://github.com/egorlem/ultima.workspace/blob/66aa36cca06a6806cc18dab8a942f2b24db5f932/packages/ultima.vscode-theme/LICENSE) : [Egor Lem](https://egorlem.com/)
+License [MIT](https://github.com/egorlem/ultima.workspace/blob/66aa36cca06a6806cc18dab8a942f2b24db5f932/packages/ultima.vscode-theme/LICENSE) · [Egor Lem](https://egorlem.com/)
