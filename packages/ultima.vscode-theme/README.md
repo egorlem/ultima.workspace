@@ -43,7 +43,7 @@ You can also install a Theme from *.vsix file by following the [Install from a V
 
 All base colors have a contrast ratio greater than 4.5 : 1, meeting WCAG 2.1 recommendations for level AA.
 
-### [Color blind safe theme](https://color.adobe.com/Ultima-color-theme-bb7fca96-3dbb-4785-a39d-3625c87f08d8/)
+### [Color blind safe theme](https://color.adobe.com/Ultima-scheme-(base)-color-theme-a7c518c4-5255-48e0-9aa7-ecef798d6659/)
 
 All colors were selected using a [special tool from Adobe](https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html) to avoid potential confusion for people with color blindness. 
 
